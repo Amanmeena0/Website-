@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+select{
+    @apply border-2 p-2 rounded-md m-2 ;
+  }

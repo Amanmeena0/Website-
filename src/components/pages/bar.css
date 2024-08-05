@@ -1,0 +1,20 @@
+
+.table-container {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.table-auto th,
+.table-auto td {
+    white-space: nowrap;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .table-auto th,
+    .table-auto td {
+        padding: 0.5rem;
+    }
+}
